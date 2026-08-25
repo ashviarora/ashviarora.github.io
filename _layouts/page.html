@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+<head>
+  <title>{{page.title}}</title>
+  <meta name="description" content="{{page.title}}" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <meta charset="utf-8">
+  <meta name="content-language" content="en-in">
+  <meta name="language" content="en-in">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+  <link rel="canonical" href="{{page.url|absolute_url}}" />
+  <link rel="stylesheet" type="text/css" href="/assets/style.css">
+</head>
+
+<body ng-app="myApp">
+  <header class="header-warpper">
+    <div class="menu-respo">
+      <div class="container">
+        <div class="header-sec">
+          <div class="logo">
+            <a href="/" style="font-size:25px;font-weight:bold;">Ashvi Arora</a>
+          </div>
+          <div class="menu-sec">
+              <a class="tham-but" href="/contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  {{ content }}
+
+
+
+    <footer class="footer-wrapper border-top ">
+    <div class="container">
+      <div class="footer-sec">
+        <ul>
+        <ul>
+          <li>
+            <a href="/contact">
+              CONTACT
+            </a>
+          </li>
+          <li>
+            <a href="/disclaimer">
+              DISCLAIMER
+            </a>
+          </li>
+          <li>
+            <a href="/privacy-policy">
+              PRIVACY POLICY
+            </a>
+          </li>
+          <li>
+            <a href="/terms-and-conditions">
+              TERMS & CONDITIONS
+            </a>
+          </li>
+
+        </ul>
+          
+        </ul>
+      </div>
+    </div>
+    <div class="copyright-sec ">
+      <p class="mb-0">Copyright © 2025 Ashvi</p>
+    </div>
+  </footer>
+</body>
