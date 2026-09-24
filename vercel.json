@@ -1,5 +1,12 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
-  "regions": ["bom1"]
+  "regions": ["bom1"],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://ashviarora.com/$1",
+      "permanent": true
+    }
+  ]
 }
